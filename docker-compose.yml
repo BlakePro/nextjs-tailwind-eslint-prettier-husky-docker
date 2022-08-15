@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  landing:
+    container_name: yafacture
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - /app/node_modules
+      - /app/.next
+    ports:
+     - 80:80
+

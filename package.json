@@ -1,0 +1,40 @@
+{
+  "name": "nextjs-tailwind-eslint-prettier-husky-docker",
+  "author": "Cristian Yosafat Hernández Ruiz",
+  "version": "1.0.0",
+  "description": "Boilerplate from nextjs tailwindcss with eslint prettier and husky (git staged files) and docker",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next build && next start -p 80",
+    "lint": "next lint",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "next": "^12.1.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^3.0.24"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^12.2.5",
+    "@types/react": "^17.0.3",
+    "eslint": "^8.22.0",
+    "eslint-config-next": "^12.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint . --fix",
+      "prettier --write ."
+    ]
+  }
+}
