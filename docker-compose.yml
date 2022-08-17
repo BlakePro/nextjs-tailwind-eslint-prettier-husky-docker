@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   landing:
-    container_name: yafacture
+    container_name: my_container_name
     build:
       context: .
       dockerfile: Dockerfile
