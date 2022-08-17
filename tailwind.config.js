@@ -3,10 +3,8 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
-      height: {
-      },
-      width: {
-      },
+      height: {},
+      width: {},
       colors: {
         app: {
           100: '#F2F1F5',

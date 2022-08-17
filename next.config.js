@@ -4,9 +4,8 @@ module.exports = {
   images: {
     domains: ['*'],
   },
-  env: {
-  },
+  env: {},
   eslint: {
     dirs: ['.'],
-  }
+  },
 };

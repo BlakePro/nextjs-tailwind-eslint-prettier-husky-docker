@@ -9,5 +9,4 @@ services:
       - /app/node_modules
       - /app/.next
     ports:
-     - 80:80
-
+      - 80:80
