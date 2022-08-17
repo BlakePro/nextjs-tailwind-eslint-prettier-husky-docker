@@ -10,6 +10,7 @@ NextJs · Tailwindcss · Eslint · Prettier · Husky · Docker
 
 ## 👉🏻 Dev usage
 ```bash
+npx mrm@2 lint-staged
 yarn install
 yarn dev
 ```
