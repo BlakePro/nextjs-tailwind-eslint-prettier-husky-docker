@@ -2,7 +2,7 @@
   "name": "nextjs-tailwind-eslint-prettier-husky-docker",
   "author": "Cristian Yosafat Hernández Ruiz",
   "version": "1.0.0",
-  "description": "Boilerplate from nextjs tailwindcss with eslint prettier and husky (git staged files) and docker",
+  "description": "Boilerplate for nextjs tailwindcss with eslint prettier and husky (git staged files) and docker",
   "private": true,
   "scripts": {
     "dev": "next dev -p 3000",

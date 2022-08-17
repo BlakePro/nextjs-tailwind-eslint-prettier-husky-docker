@@ -5,13 +5,13 @@ NextJs · Tailwindcss · Eslint · Prettier · Husky · Docker
 </p>
 
 <p align="center">
-  <img src="boilerplate.png" width="380" alt="Boilerplate NextJs Tailwindcss Eslint Prettier Husky Docker">
+  <img src="boilerplate.png" width="380" alt="Boilerplate for NextJs Tailwindcss Eslint Prettier Husky Docker">
 </p>
 
 ## 👉🏻 Dev usage
 
 ```bash
-npx mrm@2 lint-staged
+# npx mrm@2 lint-staged
 yarn install
 yarn dev
 ```
